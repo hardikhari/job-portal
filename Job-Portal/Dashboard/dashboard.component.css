@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+.log{
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.log button{
+    padding: 3px 12px;
+    font-family:Georgia;
+}
+.log button:hover{
+    background: rgb(234, 137, 137);
+    color:black;
+    font-weight: bolder;
+}
+.row{
+    padding-bottom: 50px;
+}
+form{
+    background-color: azure;
+    height: 110vh;
+    width: 50vw;
+}
+td img{
+    height: 90px;
+    width: 70px;
+    float: right;
+}
+form{
+    margin: 100px 52vh;
+    padding-left: 15px;
+}
+
+table input{
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+table input:focus-within{
+    border-bottom: 2px solid rgba(69, 218, 69, 0.723);
+    bottom: -2px;
+}
+table tr{
+    height: 60px;
+}
+#btn input{
+    padding: 3px 12px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+}
+#btn input:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#details{
+    text-align: center;
+    padding-left: 400px;
+}
+#details h5{
+    width: 200px;
+    text-align: center;
+    border-bottom: 2px solid red;
+    font-size: 30px;
+}
+#file input{
+    border: none;
+    background-color:rgb(192, 212, 230);
+}

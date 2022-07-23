@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 50vh;
+    width: 100vw;
+    margin: 50px 500px;
+}
+form input{
+    background: transparent;
+    border: .2px solid black;
+}
+form{
+    background-color:rgba(247, 247, 126, 0.278);
+    color: black;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+}
+form h4{
+    text-align: center;
+    font-size: 30px;
+}

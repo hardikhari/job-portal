@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    background: rgb(0,0,0,.4);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    align-items: center;
+    font-size: 45px;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    text-align: center;
+}
+div{
+    background-color: azure;
+    height: 460px;
+    width: 520px;
+    float: left;
+    margin: 100px;
+    font-size: large;
+    font-family:'Trebuchet MS';
+    text-align: center;
+}
+div img{
+    height: 300px;
+    width: 500px;
+}
+div img:hover{
+    padding: 10px 10px;
+    cursor:grab;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+div a:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+div p{
+    padding-top: 40px;
+    font-size: 20px;
+}

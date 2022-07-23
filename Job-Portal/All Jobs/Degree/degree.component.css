@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+table{
+    text-align: center;
+    justify-content: center;
+    width: 65vw;
+    height: 80vh;
+}
+table th{
+    background-color: rgb(154, 106, 198);
+}
+table, tr, td, th{
+    border: 2px solid black;
+}
+td a{
+    text-decoration: none;
+}
+td a:hover{
+    font-size: bolder;
+    font-weight: bold;
+    color: crimson;
+}
+td{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,19 @@
+<table>
+    <tr>
+        <th>Exam</th>
+        <th>Post</th>
+        <th>Qualification</th>
+        <th>Last Date</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <th colspan="5" style="color:#fff ;font-size:20px" >Jobs 2022 - 10K Vancancies</th>
+    </tr>
+    <tr *ngFor="let i of dg">
+        <td>{{i.exam}}</td>
+        <td>{{i.post}}</td>
+        <td>{{i.Qualification}}</td>
+        <td>{{i.lastdate}}</td>
+        <td><a href="/form2">link</a></td>
+    </tr>
+</table>

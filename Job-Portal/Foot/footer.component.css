@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color:rgb(51, 47, 47);
+    color: white;
+    font-style: initial;
+}
+div.job1{
+    padding-left: 30px;
+}
+div.job2{
+    padding-left: 160px;
+}
+div .job2 a{
+    text-decoration: none;
+    color:gold;
+
+}
+div.job3{
+    padding-left: 100px;
+}
+p{
+    padding-left: 500px;
+    background-color: rgb(51, 47, 47);
+    color: white;
+}
+.social p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.social img{
+    height: 40px;
+    width: 50px;
+}
+div .cpy{
+    background-color: rgb(0,0,0,.4);
+}
+div .cpy span{
+    padding-left: 650px;
+}

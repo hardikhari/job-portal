@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Georgia;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.logo::first-line{
+    color: orangered;
+}
+
+.nav-items img{
+    height: 100px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.nav-items{
+    float: left;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    margin: 30px 82.5px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: blue;
+}
+.nav-items:hover{
+    padding: 3px 0;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+
+body{
+    padding-top: 10px;
+    padding-left: 100px;
+    align-items: center;
+    text-align: center;
+}
+body #job{
+    height: 200px;
+    width: 300px;
+    background-color:rgba(241, 239, 232, 0.367);
+    float: left;
+    margin: 50px;
+    border-radius: 10px;
+}
+body #job:hover{
+    padding: 20px 0;
+    background-color:rgba(141, 245, 210, 0.341);
+}
+body img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+}
+div p img{
+    height: 30px;
+    width: 30px;
+}
+body div a{
+    text-decoration: none;
+}
+body #com{
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+body div a:hover{
+    color: brown;
+    font-style: initial;
+}
+div p{
+    padding-top: 10px;
+}
+
+#feba, h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium';
+    padding-bottom: 50px;
+}
+#feba, input{
+    border: none;
+    outline: none;
+    border-bottom:3px solid greenyellow ;
+    background: transparent;
+}
+.feedback{
+    text-align: center;
+    font-weight: bold;
+}
+.feedback .col-sm-6{
+    background-color: aliceblue;
+    height: 160px;
+    border-radius: 10px;
+    height: 30vh;
+    width: 30vw;
+    margin-left: 200px;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+}
+.feedback img{
+    height: 45px;
+    width: 50px;
+    float: left;
+    margin: 15px 40px;
+}
+.feedback h1{
+    font-size: 20px;
+    float: left;
+    margin: 25px 0;
+}
+.feedback span{
+    float: left;
+    margin: 40px -150px;
+}
+.feedback input{
+    margin: 15vh -100px;
+    float: left;
+    width: 200px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border-bottom: 2px solid red;
+}
+.feedback i{
+    color: black;
+    margin: 16vh 0;
+    cursor: pointer;
+}
+
+

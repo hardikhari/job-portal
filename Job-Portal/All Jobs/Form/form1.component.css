@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    padding-top: 50px;
+    background-color: azure;
+    padding-bottom: 20px;
+}
+.row{
+    padding-left: 20px;
+}
+.row tr, th, td{
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    font-family:'Segoe UI';
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.about{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div table{
+    text-align: center;
+    width: 600px;
+}
+table th{
+    background-color: rgb(226, 150, 211);
+    font-weight: bolder;
+}
+table td{
+    background-color: rgba(173, 95, 247, 0.423);
+    font-weight: bold;
+}
+.latest{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.latest span{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+.qualification{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.qualification span{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+.age{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.age span{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+#age, nav{
+    width: 50vw;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 40px;
+}
+.salary{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.salary span{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.button a{
+    padding: 15px 32px;
+}
+.button a:hover{
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
